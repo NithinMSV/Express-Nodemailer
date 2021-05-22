@@ -1,6 +1,10 @@
 # Express-Nodemailer
 Send emails through Express.js and Nodemailer package in Node.js
 
+This project contains settings for GoDaddy server.
+
+Refer this https://nodemailer.com/ for other server providers like gmail, hotmail, etc
+
 # Using sendmail.js
 * You can send emails without ExpressJs.
 * Run `node sendmail.js` inside the current directory.
