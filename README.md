@@ -27,7 +27,7 @@ Send emails through Express.js and Nodemailer package in Node.js
 * `{`
 * `"email":"youremailid"`
 * `}`
-* Execute it, You will recieve success message in cmd as well as 200 status in postman.
+* Execute it, You will receive success message in cmd as well as 200 status in postman.
 
 
 ### HAPPY CODING!!
