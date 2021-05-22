@@ -12,7 +12,7 @@ Send emails through express.js and Nodemailer package in Node.js
 * Run `npm run dev` inside the current directory to start the express server using nodemon.
 
 ### Configuring `.env` file
-* Create a file and name it `.env`
+* Create a file inside the directory and name it `.env`
 * Copy the below code, paste it in `.env` file and save it.
 * `PERSONAL_USERNAME='youremailid'`
 * `PERSONAL_PASSWORD='youremailpassword'`
