@@ -1,5 +1,5 @@
 # Express-Nodemailer
-Send emails through express.js and Nodemailer package in Node.js
+Send emails through Express.js and Nodemailer package in Node.js
 
 # Using sendmail.js
 * You can send emails without ExpressJs.
