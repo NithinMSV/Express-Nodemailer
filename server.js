@@ -50,7 +50,7 @@ app.post('/', async (req,res) => {
 
 	  // send mail with defined transport object
 	  const message = await transporter.sendMail({
-	    from: 'Nithin MSV <porte@nithinmsv.in>', // sender address
+	    from: 'from-email', // sender address
 	    to: requestData.email, // list of receivers
 	    subject: 'Hello', // Subject line
 	    // text: "Hello world", // plain text body

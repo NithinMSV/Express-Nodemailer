@@ -18,10 +18,10 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-	from: 'porte@nithinmsv.in',
-	to: 'nithinmsv@gmail.com',
+	from: 'from-email',
+	to: 'to-email',
 	subject: 'Sending mail using Nodemailer and ExpressJS',
-	text: `Hi Nithin, Message from Nodemailer and ExpressJS`
+	text: `Message from Nodemailer and ExpressJS`
 };
 
 transporter.sendMail(mailOptions).then(() => {
