@@ -11,4 +11,4 @@ Send emails through express.js and Nodemailer package in Node.js
 * Run `npm start` inside the current directory to start the express server.
 * Run `npm run dev` inside the current directory to start the express server using nodemon.
 
-### HAPPY CODING
+### HAPPY CODING!!
