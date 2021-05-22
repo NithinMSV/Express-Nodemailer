@@ -4,6 +4,7 @@ Send emails through Express.js and Nodemailer package in Node.js
 # Using sendmail.js
 * You can send emails without ExpressJs.
 * Run `node sendmail.js` inside the current directory.
+* Default port is `3050`. You can change it anytime.
 * Refer to the test data below using postman.
 
 # Using server.js
