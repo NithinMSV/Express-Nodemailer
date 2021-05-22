@@ -4,12 +4,14 @@ Send emails through Express.js and Nodemailer package in Node.js
 # Using sendmail.js
 * You can send emails without ExpressJs.
 * Run `node sendmail.js` inside the current directory.
+* Refer to the test data below using postman.
 
 # Using server.js
 * You can create a express server, access API using postman and send emails.
 * Run `npm install` to install all necessary packages.
 * Run `npm start` inside the current directory to start the express server.
 * Run `npm run dev` inside the current directory to start the express server using nodemon.
+* Refer to the test data below using postman.
 
 ### Configuring `.env` file
 * Create a file inside the directory and name it `.env`
@@ -17,5 +19,15 @@ Send emails through Express.js and Nodemailer package in Node.js
 * `PERSONAL_USERNAME='youremailid'`
 * `PERSONAL_PASSWORD='youremailpassword'`
 * Replace with your email, password.
+
+### Test data using Postman
+* Open postman, switch to `POST` request and enter url `http://localhost:3050/`
+* Select `body` and switch `text` to `json`
+* Enter the following code
+* `{`
+* `"email":"youremailid"`
+* `}`
+* Execute it, You will recieve success message in cmd as well as 200 status in postman.
+
 
 ### HAPPY CODING!!
