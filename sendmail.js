@@ -18,8 +18,8 @@ var transporter = nodemailer.createTransport({
 });
 
 var mailOptions = {
-	from: 'from-email',
-	to: 'to-email',
+	from: 'from-email', // replace with your email ID
+	to: 'to-email', // replace with the recipient email ID
 	subject: 'Sending mail using Nodemailer and ExpressJS',
 	text: `Message from Nodemailer and ExpressJS`
 };
