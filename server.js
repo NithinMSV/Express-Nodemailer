@@ -39,7 +39,7 @@ app.post('/', async (req,res) => {
     tls: {
         ciphers:'SSLv3'
     },
-    requireTLS:true,
+    requireTLS: true,
     port: 465,
     debug: true,
 	auth: {
