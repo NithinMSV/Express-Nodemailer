@@ -58,8 +58,8 @@ app.post('/', async (req,res) => {
 	  });
 
 	  transporter.sendMail(message).then(() => {
-            console.log(`Email sent successfully to ${email}`);
-            res.status(200).json({ message: `Email sent successfully to ${email}` });
+            console.log(`Email sent successfully to ${requestData.email}`);
+            res.status(200).json({ message: `Email sent successfully to ${requestData.email}` });
         }).catch((err) => {
             console.log('Failed to send email');
             console.error(err);
