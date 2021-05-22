@@ -16,7 +16,6 @@ Send emails through Express.js and Nodemailer package in Node.js
 * Copy the below code, paste it in `.env` file and save it.
 * `PERSONAL_USERNAME='youremailid'`
 * `PERSONAL_PASSWORD='youremailpassword'`
-* `EMAIL_OUTGOING_PORT=portnumber`
-* Replace with your email, password and port.
+* Replace with your email, password.
 
 ### HAPPY CODING!!
