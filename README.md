@@ -31,4 +31,4 @@ Refer this [Nodemailer](https://nodemailer.com/) website for other server provid
 * `{`
 * `"email":"youremailid"`
 * `}`
-* Execute it, You will receive success message in cmd as well as 200 status in postman.
+* Execute it, You will receive success message in your CMD as well as 200 status in postman.
