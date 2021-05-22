@@ -21,7 +21,8 @@ var mailOptions = {
 	from: 'from-email', // replace with your email ID
 	to: 'to-email', // replace with the recipient email ID
 	subject: 'Sending mail using Nodemailer and ExpressJS',
-	text: `Message from Nodemailer and ExpressJS`
+	text: `Message from Nodemailer and ExpressJS`,
+    html: "<b>Thanks for subscribing!</b>", // write html template for the email
 };
 
 transporter.sendMail(mailOptions).then(() => {

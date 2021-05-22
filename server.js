@@ -51,10 +51,10 @@ app.post('/', async (req,res) => {
 	  // send mail with defined transport object
 	  const message = await transporter.sendMail({
 	    from: 'from-email', // sender address
-	    to: requestData.email, // list of receivers
+	    to: requestData.email, // list of receivers (reciever address)
 	    subject: 'Hello', // Subject line
 	    // text: "Hello world", // plain text body
-	    html: "<b>Thanks for subscribing!</b>", // html body
+	    html: "<b>Thanks for subscribing!</b>", // write html template for the email
 	  });
 
 	  transporter.sendMail(message).then(() => {
